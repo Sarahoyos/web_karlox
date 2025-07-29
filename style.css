@@ -1,0 +1,121 @@
+
+
+@font-face{
+    font-family: 'RobotoMono';
+    src:url(./fonts/RobotoMono-VariableFont_wght.ttf)
+
+  
+}
+
+.logo img{
+    width: 110px;
+    border-radius: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: transform 0.3s ease;
+
+}
+
+nav{
+    background: linear-gradient(to right, #668AA6, #668AA6), linear-gradient(to left, #273540, #3B5060);
+    text-align: center;
+    padding: 10px;
+    /* display: flex; */
+    justify-content: right;
+    align-items: right;
+    gap: 20px;
+    
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: 'RobotoMono', monospace;
+    font-size: 12px;
+    padding: 10px 20px;
+    margin-top: auto;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+
+    
+}
+.contacto{
+    background-color: #BEAD92; /* Updated to match the theme */
+    color: white; /* Text color for better contrast */
+    border-radius: 20px; /* Softer rounded corners */
+    padding: 10px 20px; /* Adds spacing inside the button */
+    font-family: 'RobotoMono', monospace; /* Matches the font style */
+    font-size: 14px; /* Slightly larger font for better readability */
+    text-align: center; /* Centers the text */
+    text-decoration: none; /* Removes underline if it's a link */
+    display: inline-block; /* Ensures proper button behavior */
+    margin-top: 20px; /* Adds spacing above the button */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+
+    
+}
+
+.contacto:hover {
+    background-color: #597891; /* Darkens the button on hover */
+    transform: scale(1.05); /* Slightly enlarges the button */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Enhances the shadow */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    min-height: 20vh;
+    color: white;
+    margin-top: auto; /* Pushes the footer to the bottom */
+    width: 100%;
+   
+    background: linear-gradient(to right, #668AA6, #668AA6), linear-gradient(to left, #273540, #3B5060);
+}
+
+.rights{
+    text-align: left;
+    display: flex;
+    margin-top: auto;
+    width: 100%;
+    padding-left: 10px;
+    justify-content: left;
+    align-items: left;
+    font-size: small;
+}
+
+.insta{
+    color: white;
+    text-decoration: none;
+    font-family: 'RobotoMono', monospace;
+    font-size: 12px;
+    padding: 10px 20px;
+    margin-top: auto;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+}
+
+.youtube{
+    color: white;
+    text-decoration: none;
+    font-family: 'RobotoMono', monospace;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+
+.spotify{
+    color: white;
+    text-decoration: none;
+    font-family: 'RobotoMono', monospace;
+    font-size: 12px;
+    padding: 10px 20px;
+}
+.logofooter{
+    width: 110px;
+}
