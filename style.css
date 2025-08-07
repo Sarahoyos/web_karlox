@@ -1,5 +1,3 @@
-
-
 @font-face{
     font-family: 'RobotoMono';
     src:url(./fonts/RobotoMono-VariableFont_wght.ttf)
@@ -8,7 +6,7 @@
 }
 
 .logo img{
-    width: 110px;
+    width: 80px; /* Reduced from 110px */
     border-radius: 60%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -44,7 +42,7 @@ nav a {
     border-radius: 20px; /* Softer rounded corners */
     padding: 10px 20px; /* Adds spacing inside the button */
     font-family: 'RobotoMono', monospace; /* Matches the font style */
-    font-size: 14px; /* Slightly larger font for better readability */
+    font-size: 10px; /* Slightly larger font for better readability */
     text-align: center; /* Centers the text */
     text-decoration: none; /* Removes underline if it's a link */
     display: inline-block; /* Ensures proper button behavior */
@@ -53,6 +51,16 @@ nav a {
     transition: all 0.3s ease; /* Smooth transition for hover effects */
 
     
+}
+.desarollo{
+    text-align: left;
+    display: flex;
+    margin-top: auto;
+    width: 100%;
+    padding-left: 10px;
+    justify-content: left;
+    align-items: left;
+    font-size: 10px;
 }
 
 .contacto:hover {
@@ -87,7 +95,7 @@ footer {
     padding-left: 10px;
     justify-content: left;
     align-items: left;
-    font-size: small;
+    font-size: 10px;
 }
 
 .insta{
@@ -116,6 +124,269 @@ footer {
     font-size: 12px;
     padding: 10px 20px;
 }
-.logofooter{
-    width: 110px;
+
+
+
+.imagen img {
+    width: 15%;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(87, 104, 128, 0.1);
+    margin: 49px 167px;
+    padding-right: 5px;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+
+
+
+}
+.parafo{
+    text-align: center;
+    color: #597891;
+    margin-left: 20px;
+}
+
+.image-text-container {
+    position: relative;
+    width: 75%;
+    margin: 49px auto;
+}
+
+.image-text-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    stroke: #597891;
+    box-shadow: 0 0 10px rgba(79, 104, 139, 0.1);
+    opacity: 0.15; /* Slightly increased opacity for text readability */
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 16px;
+    left: 162px; 
+    right: 0; 
+    bottom: 0;
+    display: flex;
+    flex-direction: column;  /* Change to column to stack text and button */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.overlay-text p {
+    color: #597891;
+    font-family: 'RobotoMono', monospace;
+    font-size: 12px;
+    text-align: center;
+    line-height: 2.5;
+    max-width: 80%; /* Increased from 74% for better fit */
+    margin: 0 auto; /* Changed from -16px auto to center properly */
+    padding: 20px;
+}
+
+.know-more-btn {
+    background-color: #BEAD92;
+    color: white; 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    font-family: 'RobotoMono', monospace; 
+    font-size: 10px; 
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    margin-top: 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; 
+    position: relative;
+}
+
+.know-more-btn:hover {
+    background-color: #597891; 
+    transform: scale(1.05); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.boton img {
+    /* This is now handled by .image-text-container img */
+}
+
+.boton img {
+    width: 75%;
+    height: 100%;
+    border-radius: 15px;
+    stroke: #597891;
+    box-shadow: 0 0 10px rgba(79, 104, 139, 0.1);
+    margin: 49px 267px;
+    padding-right: 5px;
+    opacity: 0.10; 
+    justify-content: center;
+    align-items: center;
+    color: #597891; 
+    font-family: 'RobotoMono', monospace; 
+    font-size: 12px; 
+    text-align: center; 
+    margin-top: 10px; 
+}
+
+.logoenfondo img{
+    width: 10%;
+    margin: 49px 914px;
+}
+.boton a{
+    background-color: #BEAD92; /* Corrected comment */
+    color: white; 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    font-family: 'RobotoMono', monospace; 
+    font-size: 10px; 
+    text-align: center; /* Fixed missing semicolon */
+    text-decoration: none; 
+    display: inline-block; 
+    margin-top: 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; 
+    position: relative;
+    margin: 20px auto;
+    display: block;
+    width: fit-content;
+ 
+
+}
+
+.boton a:hover {
+    background-color: #597891; 
+    transform: scale(1.05); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+}
+
+section iframe{
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(87, 104, 128, 0.1);
+    margin: 20px auto; /* Centers the iframe */
+}
+
+.imagenfondo img {
+    width: 20%;
+    height: 500%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(87, 133, 199, 0.102);
+    margin: 25px auto; /* Centers the image */
+    padding: 45px ; /* Adds padding around the image */
+
+}
+
+.boton p{
+    color: #597891; 
+    font-family: 'RobotoMono', monospace; 
+    font-size: 12px; 
+    text-align: center; 
+    margin-top: 65px; 
+}
+.overlay-text h2{
+    color: #597891; /* Text color for better contrast */
+    font-family: 'RobotoMono', monospace; /* Matches the font style */
+    font-size: 20px; /* Slightly larger font for better readability */
+    text-align: center; /* Centers the text */
+    margin-bottom: 10px; /* Adds spacing below the heading */
+}
+
+
+.musica img{
+    width: 55%;
+    height: 100%;
+    border-radius: 15px;
+    stroke: #597891;
+    box-shadow: 0 0 10px rgba(79, 104, 139, 0.1);
+    margin: 49px 267px;
+    padding-right: 5px;
+    opacity: 0.10; 
+    justify-content: center;
+    align-items: center;
+    color: #597891; 
+    font-family: 'RobotoMono', monospace; 
+    font-size: 12px; 
+    text-align: center; 
+    margin-top: 10px; 
+}
+
+.overlay-text-musica {
+    position: absolute;
+    top: 16px;
+    left: 162px; 
+    right: 0; 
+    bottom: 0;
+    display: flex;
+    flex-direction: column;  /* Change to column to stack text and button */
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.know-more-btn-musica {
+    background-color: #BEAD92;
+    color: white; 
+    border-radius: 20px; 
+    padding: 10px 20px; 
+    font-family: 'RobotoMono', monospace; 
+    font-size: 10px; 
+    text-align: center;
+    text-decoration: none; 
+    display: inline-block; 
+    margin-top: 20px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; 
+    position: relative;
+}
+
+.know-more-btn-musica:hover {
+    background-color: #597891; 
+    transform: scale(1.05); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); 
+}
+cite{
+    color: #597891; /* Text color for better contrast */
+    font-family: 'RobotoMono', monospace; /* Matches the font style */
+    font-size: 9px; /* Slightly larger font for better readability */
+    text-align: center; /* Centers the text */
+    margin-top: 10px; /* Adds spacing above the text */
+    display: block;
+}
+
+.image-text-container-musica {
+    position: relative;
+    width: 75%;
+    margin: 49px auto;
+}
+
+.image-text-container-musica img {
+    width: 75%;
+    height: auto;
+    border-radius: 15px;
+    stroke: #597891;
+    box-shadow: 0 0 10px rgba(79, 104, 139, 0.1);
+    opacity: 0.15; /* Slightly increased opacity for text readability */
+    display: block;
+}
+.image-text-container-musica p{
+    color: #597891;
+    font-family: 'RobotoMono', monospace;
+    font-size: 12px;
+    text-align: center;
+    line-height: 2.5;
+    max-width: 80%; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+.image-text-container-musica h2{
+    color: #597891; 
+    font-family: 'RobotoMono', monospace; 
+    font-size: 20px; 
+    text-align: center;
+    margin-bottom: 10px; 
 }
