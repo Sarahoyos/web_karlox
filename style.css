@@ -131,7 +131,7 @@ footer {
     width: 15%;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(87, 104, 128, 0.1);
-    margin: 49px 167px;
+    margin: 49px 114px;
     padding-right: 5px;
     justify-content: center;
     align-items: center;
@@ -232,7 +232,7 @@ footer {
 
 .logoenfondo img{
     width: 10%;
-    margin: 49px 914px;
+    margin: 49px 650px;
 }
 .boton a{
     background-color: #BEAD92; /* Corrected comment */
@@ -268,16 +268,6 @@ section iframe{
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(87, 104, 128, 0.1);
     margin: 20px auto; /* Centers the iframe */
-}
-
-.imagenfondo img {
-    width: 20%;
-    height: 500%;
-    border-radius: 15px;
-    box-shadow: 10px 10px 10px rgba(87, 133, 199, 0.102);
-    margin: 25px auto; /* Centers the image */
-    padding: 45px ; /* Adds padding around the image */
-
 }
 
 .boton p{
@@ -390,3 +380,328 @@ cite{
     text-align: center;
     margin-bottom: 10px; 
 }
+
+/**style of servicios page**/
+
+.imagenfondo img {
+    width: 10%;
+    height: 500%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(87, 133, 199, 0.102);
+    margin: 25px auto; /* Centers the image */
+    padding: 45px ; /* Adds padding around the image */
+    display: flexbox;
+    justify-content: center; /* Centers the image horizontally */
+    align-items: center; /* Centers the image vertically */
+    transform: rotate3d(0, 1, 0, 10deg); /* Adds a slight rotation for a 3D effect */
+
+}
+.terapia h2{
+    color: #BEAD92; /* Text color for better contrast */
+    font-family: 'RobotoMono', monospace; /* Matches the font style */
+    font-size: 20px; /* Slightly larger font for better readability */
+    text-align: center; /* Centers the text */
+    margin-bottom: 10px; /* Adds spacing below the heading */
+}
+.terapia p{
+    color: #597891; /* Text color for better contrast */
+    font-family: 'RobotoMono', monospace; /* Matches the font style */
+    font-size: 12px; /* Slightly larger font for better readability */
+    text-align: left; /* Centers the text */
+    line-height: 1.5;
+    max-width: 80%; 
+    margin: 20px;
+    padding: 20px;
+    
+}
+.arte h2{
+    color: #BEAD92; /* Text color for better contrast */
+    font-family: 'RobotoMono', monospace; /* Matches the font style */
+    font-size: 20px; /* Slightly larger font for better readability */
+    text-align: center; /* Centers the text */
+    margin-bottom: 10px; /* Adds spacing below the heading */
+}
+.arte p{
+    color: #597891; /* Text color for better contrast */
+    font-family: 'RobotoMono', monospace; /* Matches the font style */
+    font-size: 12px; /* Slightly larger font for better readability */
+    text-align: left; /* Centers the text */
+    line-height: 1.5;
+    max-width: 80%; /* Increased from 74% for better fit */
+    margin: 20px; /* Changed from -16px auto to center properly */
+    padding: 20px;
+}
+.clases h2{
+    color: #BEAD92; /* Text color for better contrast */
+    font-family: 'RobotoMono', monospace; /* Matches the font style */
+    font-size: 20px; /* Slightly larger font for better readability */
+    text-align: center; /* Centers the text */
+    margin-bottom: 10px; /* Adds spacing below the heading */
+}
+
+.clases p{
+    color: #597891; /* Text color for better contrast */
+    font-family: 'RobotoMono', monospace; /* Matches the font style */
+    font-size: 12px; /* Slightly larger font for better readability */
+    text-align: left; /* Centers the text */
+    line-height: 1.5;
+    max-width: 80%; /* Increased from 74% for better fit */
+    margin:20px; /* Changed from -16px auto to center properly */
+    padding: 20px;
+}
+.clases li{
+   
+    align-items: center;
+    justify-items: center;
+    color: #597891;
+    font-family: 'RobotoMono', monospace;
+
+}
+.instrumentos h2{
+    color: #BEAD92; 
+    font-family: 'RobotoMono', monospace; 
+    font-size: 18px; 
+    margin-bottom: 10px; 
+    text-align: left;
+}
+.instrumentos li{
+    font-size: 14px;
+    margin:20px
+}
+
+.content li{
+    margin:20px;
+    font-size: 12px;
+    
+}
+.content h2{
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    color: #BEAD92; 
+    font-size: 18px;
+}
+
+.incluye h2{
+    color: #BEAD92; 
+    font-family: 'RobotoMono', monospace; 
+    font-size: 18px; 
+    margin: 20px; 
+    padding: 20px;
+    text-align: left;
+}
+.incluye li{
+    color: #597891; 
+    font-family: 'RobotoMono', monospace; 
+    font-size: 12px; 
+    margin: 20px; 
+ 
+}
+.escritura h2{
+    color: #BEAD92; 
+    font-family: 'RobotoMono', monospace; 
+    font-size: 18px; 
+    margin: 20px; 
+    padding: 20px;
+    text-align: center;
+}
+.escritura li{
+    color: #597891; 
+    font-family: 'RobotoMono', monospace; 
+    font-size: 12px; 
+    margin: 20px; 
+}
+.escritura h3{
+    color: #BEAD92; 
+    font-family: 'RobotoMono', monospace; 
+    font-size: 16px; 
+    margin: 20px; 
+    padding: 20px;
+    text-align: left;
+}
+.contactoservicios{
+    background-color: #BEAD92; /* Corrected comment */
+    color: white; 
+    border-radius: 20px; 
+    padding: 10px 10px; 
+    font-family: 'RobotoMono', monospace; 
+    font-size: 10px; 
+    text-align: center; /* Fixed missing semicolon */
+    text-decoration: none; 
+    display: inline-block; 
+    margin-top: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; 
+    position: relative;
+    margin: 20px auto;
+    display: block;
+    width: fit-content;
+    
+}
+.contactoservicios:hover {
+    color: #597891; 
+    font-family: 'RobotoMono', monospace; 
+    font-size: 20px; 
+    text-align: center;
+    margin-bottom: 10px; 
+
+}
+
+.contactoservicios p{
+    color: #597891;
+    font-family: 'RobotoMono', monospace;
+    font-size: 12px;
+    text-align: center;
+    line-height: 2.5;
+    max-width: 80%; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+/* Style of musica page */
+.instafoto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px 0;
+  }
+  
+  .image-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    max-width: 300px;
+    
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: filter 0.3s;
+  }
+  
+  /* Button styling with important flag to override any conflicting styles */
+  .image-container .btn {
+    position: absolute !important;
+    bottom: 20px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    background-color: #BEAD92 !important;
+    color: white !important;
+    padding: 10px 15px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    text-align: center !important;
+    z-index: 10 !important; /* Make sure button is above image */
+    display: block !important; /* Force display */
+    min-width: 150px !important; /* Ensure button has minimum width */
+    white-space: nowrap !important;
+    font-family: 'RobotoMono', monospace;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  /* Non-hover state - make button always visible */
+  .image-container .btn {
+    opacity: 1 !important;
+  }
+  
+  .image-container .btn:hover {
+    background-color: #597891 !important;
+  }
+.musica h2{
+    color: #BEAD92; /* Text color for better contrast */
+    font-family: 'RobotoMono', monospace; /* Matches the font style */
+    font-size: 20px; /* Slightly larger font for better readability */
+    text-align: center; /* Centers the text */
+    margin-bottom: 10px; /* Adds spacing below the heading */
+}
+.musica p{
+    color: #597891; /* Text color for better contrast */
+    font-family: 'RobotoMono', monospace; /* Matches the font style */
+    font-size: 12px; /* Slightly larger font for better readability */
+    text-align: center; /* Centers the text */
+    line-height: 1.5;
+    max-width: 80%; 
+    margin: 20px;
+    padding: 20px;
+    
+}
+.conciertos h2{
+    color: #BEAD92; /* Text color for better contrast */
+    font-family: 'RobotoMono', monospace; /* Matches the font style */
+    font-size: 20px; /* Slightly larger font for better readability */
+    text-align: center; /* Centers the text */
+    margin-bottom: 10px; /* Adds spacing below the heading */
+}
+.conciertos p{
+    color: #597891; /* Text color for better contrast */
+    font-family: 'RobotoMono', monospace; /* Matches the font style */
+    font-size: 12px; /* Slightly larger font for better readability */
+    text-align: center; /* Centers the text */
+    line-height: 1.5;
+    max-width: 80%; 
+    margin: 20px;
+    padding: 20px;
+    
+}
+.btoneventos {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+  .event-btn {
+    background-color: #BEAD92;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    transition: background-color 0.3s, transform 0.3s;
+    font-family: 'RobotoMono', monospace;
+  }
+  
+  .event-btn:hover {
+    background-color: #597891;
+    transform: translateY(-3px);
+  }
+
+  /*Style of eventos page */
+  .imageseventos img {
+    width: 20%;
+    height: 500%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(87, 133, 199, 0.102);
+    margin: 30px; 
+    padding: 45px ; 
+    display: flexbox;
+    justify-content: center; 
+    align-items: center; 
+    transform: rotate3d(0, 1, 0, 10deg); /
+  }
+    .eventos h1 {
+        color: #BEAD92; 
+        font-family: 'RobotoMono', monospace; 
+        font-size: 20px; 
+        text-align: center; 
+        margin-bottom: 10px; 
+    }
+    .eventos li{
+        color: #597891; 
+        font-family: 'RobotoMono', monospace; 
+        font-size: 12px; 
+        text-align: left; 
+        line-height: 0.9;
+        max-width: 80%; 
+        margin: 20px; 
+        padding: 20px;
+
+    }
