@@ -256,6 +256,103 @@ footer div:not(.logofooter):not(.rights):not(.desarollo):not(.contactofooter) {
     }
 }
 
+/* Footer mobile responsiveness fixes */
+
+@media screen and (max-width: 768px) {
+  /* More comprehensive footer fixes */
+  footer {
+    padding-top: 180px; /* Increased from 150px to give more space for logo and contact button */
+    padding-bottom: 120px; /* More space for stacked links and copyright */
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Make footer links stack vertically with proper spacing */
+  footer .insta, 
+  footer .youtube, 
+  footer .spotify, 
+  footer .whatsapp, 
+  footer .correo, 
+  footer .facebook {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 8px 0;
+  }
+  
+  /* Center-align all footer links */
+  footer div:not(.logofooter):not(.rights):not(.desarollo):not(.contactofooter) {
+    margin: 5px 0;
+  }
+  
+  /* Position logo at the top center */
+  .logofooter {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+    width: 80px;
+    text-align: center;
+  }
+  
+  /* Position contact button below the logo with more space */
+  .contactofooter {
+    position: absolute;
+    left: 50%;
+    top: 120px; /* Increased from 110px to create more separation */
+    transform: translateX(-50%);
+    width: 80%;
+    max-width: 200px;
+    text-align: center;
+  }
+  
+  /* Make sure copyright and developer info are properly positioned */
+  .rights, .desarollo {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+    text-align: center;
+    padding: 5px 10px;
+    margin-top: 15px;
+  }
+  
+  .desarollo {
+    margin-top: 5px;
+  }
+}
+
+/* Additional fixes for very small screens */
+@media screen and (max-width: 480px) {
+  footer {
+    padding-top: 200px; /* Even more space on very small screens */
+  }
+  
+  /* Make links more touchable on small screens */
+  footer .insta a, 
+  footer .youtube a, 
+  footer .spotify a, 
+  footer .whatsapp a, 
+  footer .correo a, 
+  footer .facebook a {
+    padding: 10px;
+    margin: 5px auto;
+    font-size: 14px;
+    display: inline-block;
+  }
+  
+  /* Ensure icons are visible and properly sized */
+  footer .insta a i, 
+  footer .youtube a i, 
+  footer .spotify a i, 
+  footer .whatsapp a i, 
+  footer .correo a i, 
+  footer .facebook a i {
+    font-size: 16px;
+    margin-right: 6px;
+  }
+}
+
 /* Fix for social media links center alignment */
 
 .social-links {
@@ -1444,4 +1541,115 @@ body {
     .iframespo iframe {
         height: 300px;
     }
+}
+
+/* Add these specific fixes for the index page responsiveness */
+
+/* Fix for the overlapping text in the image-text containers on mobile */
+@media screen and (max-width: 768px) {
+  /* Main image container adjustments */
+  .imagen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .imagen img {
+    width: 45%;
+    margin: 10px;
+  }
+  
+  /* Improve overlay text readability */
+  .image-text-container, 
+  .image-text-container-musica, 
+  .image-text-container-eventos {
+    width: 90%;
+    margin: 30px auto;
+  }
+  
+  .overlay-text, 
+  .overlay-text-musica, 
+  .overlay-text-eventos {
+    position: relative;
+    padding: 20px 15px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .image-text-container img, 
+  .image-text-container-musica img, 
+  .image-text-container-eventos img {
+    opacity: 0.7;
+  }
+  
+  /* Adjust text sizes for mobile */
+  .overlay-text h2, 
+  .overlay-text-musica h2, 
+  .overlay-text-eventos h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .overlay-text p, 
+  .overlay-text-musica p, 
+  .overlay-text-eventos p {
+    font-size: 12px;
+    line-height: 1.4;
+    max-width: 100%;
+  }
+  
+  cite {
+    font-size: 11px;
+    display: block;
+    margin: 15px 0;
+  }
+  
+  /* Fix button positioning */
+  .know-more-btn, 
+  .know-more-btn-musica, 
+  .know-more-btn-eventos {
+    display: block;
+    width: 80%;
+    max-width: 250px;
+    margin: 15px auto;
+    text-align: center;
+  }
+}
+
+/* Extra fixes for very small screens */
+@media screen and (max-width: 480px) {
+  .imagen img {
+    width: 80%;
+  }
+  
+  /* Change overlay text from absolute to static positioning on small screens */
+  .image-text-container, 
+  .image-text-container-musica, 
+  .image-text-container-eventos {
+    position: static;
+    overflow: visible;
+    box-shadow: none;
+  }
+  
+  .image-text-container img, 
+  .image-text-container-musica img, 
+  .image-text-container-eventos img {
+    display: none; /* Hide the background images */
+  }
+  
+  .overlay-text, 
+  .overlay-text-musica, 
+  .overlay-text-eventos {
+    position: static;
+    background-color: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+  }
+  
+  /* Center the logo on mobile */
+  .logoenfondo img {
+    width: 25%;
+    min-width: 60px;
+  }
 }
