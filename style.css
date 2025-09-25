@@ -1742,3 +1742,56 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+/* Enhanced mobile responsiveness for video player */
+@media screen and (max-width: 768px) {
+    #video {
+        width: 90%;
+        max-width: none;
+        padding-bottom: 56.25%; /* Standard 16:9 aspect ratio */
+        margin: 30px auto;
+    }
+    
+    #video video {
+        border-radius: 8px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #video {
+        width: 95%;
+        margin: 25px auto;
+    }
+    
+    #video video {
+        border-radius: 6px;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    }
+}
+
+/* Video controls styling for better touch interaction on mobile */
+#video video::-webkit-media-controls {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+#video video::-webkit-media-controls-enclosure {
+    border-radius: 0;
+    padding-bottom: 5px;
+}
+
+@media (hover: none) and (pointer: coarse) {
+    /* Specific styles for touch devices */
+    #video video::-webkit-media-controls-panel {
+        height: 50px;
+    }
+    
+    #video video::-webkit-media-controls-play-button,
+    #video video::-webkit-media-controls-timeline,
+    #video video::-webkit-media-controls-volume-slider,
+    #video video::-webkit-media-controls-mute-button {
+        transform: scale(1.2);
+        margin: 0 5px;
+    }
+}
